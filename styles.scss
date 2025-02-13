@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 5px;
+  margin: 0 auto;
 }
 .header {
   width: 100%;
@@ -13,11 +13,11 @@
   gap: 10px;
   width: 100%;
   max-width: 1400px;
-  margin: 5px;
+  margin-top: 5px;
   height: auto;
   .container__left {
     width: 20%;
-    padding: 8px;
+    // padding: 8px;
   }
   .container__center {
     background-color: #d4d7d7;
@@ -33,6 +33,7 @@
 
 .footer {
   width: 100%;
+  max-width: 1400px;
   height: auto;
   position: fixed;
   bottom: 0;
